@@ -29,8 +29,8 @@ class oper
 int main()
 {
     oper o1(32), o2(35);
-    cout<<"Enter data 1: "<<o1.getdata()<<endl;
-    cout<<"Enter data 2: "<<o2.getdata()<<endl;
+    cout<<" data in obj 1: "<<o1.getdata()<<endl;
+    cout<<" data in obj 2: "<<o2.getdata()<<endl;
     if(o1 < o2)
         {
             cout<<"Data 1 is smaller than data 2";

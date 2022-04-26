@@ -16,7 +16,7 @@ class amount
     }
     int operator <(amount m)
     {
-        float w, x;
+        int w, x;
         w = rs*100;
         x = paisa;
         if(x<w) 
@@ -32,7 +32,6 @@ class amount
 int main()
 {
     amount a1, a2;
-    
     a1.getdata();
    
     if (a1<a2)
