@@ -16,12 +16,12 @@ class convert
     }
     void display()
     {
-        cout<<"Wgight in gram: "<<gram;
+        cout<<"Weight in gram: "<<gram;
     }
 };
 int main()
 {
     convert c1(5);
-    cout<<"Data in object "<<c1.datain()<<endl;
+    cout<<"Weight (Kg) in object "<<c1.datain()<<endl;
     c1.display();
 }
